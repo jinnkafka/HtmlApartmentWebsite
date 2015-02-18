@@ -1,0 +1,114 @@
+<html>
+<head>
+   <title>Final Project </title >
+   <link href="finalcss.css" rel="stylesheet" type="text/css" />
+   <script>
+/*
+	</body>
+	</html>
+	*/
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+   </script>
+   
+   
+</head>
+
+<body style="background-image: url(images/final_back2.jpg);" onLoad="MM_preloadImages('images/gateway_ads.JPG','images/icon_ads.JPG','images/tuscany_ads.JPG','images/lorenzo_ads.JPG')">
+
+   	<div id="top" style="margin:auto; width:270px;" >
+		<img src="images/LA.jpg" alt="USC Campus" height="150px"/>
+   	</div>  <!--end top-->  
+
+   	<p style="text-align:center; font-family:architect; font-size:25;"><strong>Apartments Near USC</strong></p>
+
+	<div id="introduction">
+		<strong>This website is to provide USC students inforamtion on available apartments near USC.
+		And through grouping the apartments together, making it easy for the students to do comparisons and to make better decisions.
+		Fight On! </strong>
+	</div><!--end introduction-->
+
+</br>
+   	<div id="nav">
+               
+                    <div id="Home" class="nav_button">
+						<a href="final.html">
+						<img src="btn1.png" alt="Home" class="btn"/></a>
+                    </div><!-- end home -->
+		    
+                    <div id="Rates" class="nav_button">
+		     			<a href="final_rate.html">
+		     			<img src="btn2.png" alt="Rates" class="btn"/></a>
+                    </div><!-- end rates -->
+		    
+                    <div id="Pictures" class="nav_button">
+		     			<a href="final_pic.html">
+		     			<img src="btn3.png" alt="Pictures" class="btn"/></a>              
+                    </div><!-- end pictures -->
+		    
+                    <div id="Locations" class="nav_button">
+		     			<a href="final_location.html">
+		     			<img src="btn4.png" alt="Locations" class="btn"/></a>
+                    </div><!-- end locations -->
+		    
+		    		<div id="Videos" class="nav_button">
+		     			<a href="final_video.html">
+		     			<img src="btn5.png" alt="Video" class="btn"/></a>
+                    </div><!-- end videos -->
+		    
+   	</div><!-- end nav -->
+   
+</br>
+</br>
+   
+   	<div id="container" style="margin:auto; width:1140px;">
+
+		<div id="box1" class="pic" >
+			<img src="images/gateway_1.jpeg" alt="Gateway" class="img" id="Image1" onMouseOver="MM_swapImage('Image1','','images/gateway_ads.JPG',1)" onMouseOut="MM_swapImgRestore()"/>
+			<span class="word"><em><a href="http://www.livegw.com/">Gateway</em></span>
+		</div><!--end box1-->  
+  
+		<div id="box2" class="pic" >
+			<img src="images/icon_1.jpg" alt="ICON Plaza" class="img" id="Image2" onMouseOver="MM_swapImage('Image2','','images/icon_ads.JPG',1)" onMouseOut="MM_swapImgRestore()"/>
+			<span class="word"><em><a href="http://iconplazausc.com/">ICON Plaza</em></span>
+		</div><!--end box2-->
+
+		<div id="box3" class="pic" >
+			<img src="images/tuscany_1.jpg" alt="Tuscany" class="img" id="Image3" onMouseOver="MM_swapImage('Image3','','images/tuscany_ads.JPG',1)" onMouseOut="MM_swapImgRestore()"/>
+			<span class="word"><em><a href="http://www.tuscanyonfig.com/">Tuscany</em></span>
+		</div><!--end box3-->
+
+		<div id="box4" class="pic" >
+			<img src="images/lorenzo_1.jpg" alt="Lorenzo" class="img" id="Image4" onMouseOver="MM_swapImage('Image4','','images/lorenzo_ads.JPG',1)" onMouseOut="MM_swapImgRestore()"/>
+			<span class="word"><em><a href="http://www.thelorenzo.com/">Lorenzo</em></span>
+		</div><!--end box4-->
+
+   	</div><!--end container-->
+   
+   
+</br>
+</br>
+
+</body>
+
+</html>

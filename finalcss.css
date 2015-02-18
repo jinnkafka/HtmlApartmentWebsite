@@ -1,0 +1,46 @@
+        
+        /* External CSS file for fianl project   */
+        #nav {
+            margin: auto;
+            width: 750px;
+        }
+
+        #introduction {
+            width:1000px;
+            color:black;
+            margin:auto;
+            boarder: 1px solid teal;
+            padding: 10px;
+        }
+
+        .nav_button {
+            float: left;
+            width: 150px;
+        }
+
+        .nav_button:hover {
+            opacity: 0.5;
+        }
+
+        .pic {
+            width:500px; 
+            height:300px; 
+            float:left; 
+            margin:10px; 
+            padding:10px;
+        }
+
+        .img {
+            margin:10px; 
+            width:500px; 
+            height:300px;
+        }
+
+        .btn {
+            width:100px;
+        }
+
+        .word {
+            font-size:15pt;
+            font-family:architect;
+        }
